@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@drawable/backs"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="657dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="Change Password"
+
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="596dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="51dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="516dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="LastName"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="428dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/FirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="FirstName"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="337dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backs"
+    tools:context=".deleteflight">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Delete Flight"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="49dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Ticket Number"
+        android:padding="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="260dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FF42A5F5"
+        android:gravity="center"
+        android:text="DELETE FLIGHT"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <EditText
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:hint="Why cancle Flight??"
+        android:padding="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="356dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
